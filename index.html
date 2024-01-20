@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Impact Hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"
+    />
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="menuToggle.js"></script>
+  </head>
+
+  <body>
+    <nav class="nav" id="home">
+      <ul class="menu" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#worldwide-analysis">Worldwide Analysis</a></li>
+        <li><a href="#interactive-map">Interactive Map</a></li>
+        <li class="menubutton">
+          <a href="javascript:void(0);" onclick="myFunction()">
+            <span>Menu</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="header" id="home">
+      <div class="header-container">
+        <div class="content" id="content">
+          <div class="typewriter">
+            <h1>The Global Impact Hub</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <section id="worldwide-analysis">
+      
+        <div class="container">
+       
+          <div class = "card">
+              <div class = "container-card">
+                  <p class = "card-title">
+                      Climate change
+                  </p>
+                  <p class = "card-description">
+                      Technology has helped global citizens to create statistical analysis of global change throughout the world.
+                  </p>
+                  <img src="Image1.jpg" alt="" class="image-card" >
+              </div>
+          </div>
+          <div class = "card">
+              <div class = "container-card">
+                  <p class = "card-title">
+                      Education
+                  </p>
+                  <p class = "card-description">
+                      Technology has had a profound impact on education. It has transformed the way students learn and teachers teach.
+                  </p>
+                  <img src="Education.png" alt="" class="image-card" >
+              </div>
+          </div>
+      
+      
+          <div class = "card">
+              <div class = "container-card">
+                  <p class = "card-title">
+                      AI Advancement
+                  </p>
+                  <p class = "card-description">
+                     AI has made a lot of lives easier. It has had a big impact on automation and increase of efficiency at work.
+                  </p>
+                  <img src="AiTechnology.jpg" alt="" class="image-card" >
+              </div>
+          </div>
+       
+          </div>
+        </div>
+
+
+        </div>
+      
+    </section>
+
+    <section id="interactive-map">
+      <div class="map-wrapper">
+      
+        <h1>Map of Tech in Education</h1>
+  
+        <div id="map"></div>
+      </div>
+    </section>
+
+   <footer>
+      <p>
+       Aadarsh, Aadarsha, Dip   &#169; 2024
+      </p>
+   </footer>
+
+    
+  </body>
+</html>
